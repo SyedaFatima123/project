@@ -1,0 +1,42 @@
+input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid cornsilk;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color :darkgreen;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif
+  }
+  
+  input[type=submit]:hover {
+    background-color: darkgreen;
+  }
+  
+  .form-window {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    background-color: #eefde5;
+    padding: 20px;
+    max-width: 400px;
+    /* width: 400px; */
+  }
+
+  .success {
+    font-weight: bold;
+    color:green;
+  }
